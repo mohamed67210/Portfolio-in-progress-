@@ -137,7 +137,7 @@ header.stickey {
 
 a {
   text-decoration: none;
-  color: gray;
+  color: #F2F2F2;
   font-size: 20px;
 }
 .nav_toggler {
@@ -161,7 +161,7 @@ a {
   display: block;
   width: 100%;
   height: 2px;
-  background-color: #f1f1f1;
+  background-color: #F2F2F2;
   transition: transform 0.3s ease-out,
   opacity 0.1s ease-out;
 }
@@ -184,7 +184,7 @@ nav{
   position: fixed;
   width: 100%;
   min-height: 100vh;
-  background-color:#242424;
+  background-color:#1B378C;
   top: 0;
   right: 0;
   display: flex;
@@ -194,13 +194,14 @@ nav{
   z-index: 10;
   transform: translateY(-100%) translateX(100%);
   transition: transform 0.8s ;
+  border-bottom-left-radius: 40%;
 }
 nav.active{
   transform: translate(0);
 }
 nav a{
-  color: #f1f1f1;
   margin: 10px;
+  font-size: xx-large;
 }
 /* **************** ***************************HERO*********** */
 #container-hero {
@@ -320,7 +321,7 @@ nav a{
 
 #circle .fa-solid {
   animation: scrollanimate 1s linear infinite;
-  color: #f7ac0a6e;
+  color: #1B378C;
 }
 
 @keyframes scrollanimate {
