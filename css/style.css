@@ -258,7 +258,6 @@ nav a{
 #container-rond {
   width: 200px;
   height: 200px;
-  background-color: yellow;
   border-radius: 50%;
   overflow: hidden;
   border: none;
