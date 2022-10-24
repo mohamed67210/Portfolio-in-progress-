@@ -140,6 +140,7 @@ a {
   color: #F2F2F2;
   font-size: 20px;
 }
+/* ********* menu burger */
 .nav_toggler {
   position: fixed;
   right: 20px;
@@ -173,12 +174,14 @@ transform: translateY(10px);
 }
 .nav_toggler.active .l1{
   transform: translateY(0px) rotate(135deg);
+  width: 80%;
 }
 .nav_toggler.active .l2{
   display: none;
 }
 .nav_toggler.active .l3{
   transform: translateY(0px) rotate(-135deg);
+  width: 80%;
 }
 nav{
   position: fixed;
