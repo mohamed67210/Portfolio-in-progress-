@@ -216,7 +216,26 @@ nav a{
   height: 100vh;
   width: 100%;
   gap: 20px;
-  /* background-color: aliceblue; */
+  
+}
+.gradient {
+  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+  background :linear-gradient(90deg, rgba(69,82,135,1) 0%, rgba(149,139,139,1) 50%, rgba(13,12,11,1) 100%);
+  /* background: radial-gradient(circle, rgba(123,127,144,1) 57%, rgba(38,57,175,1) 100%); */
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	min-height: 100vh;
+}
+@keyframes gradient {
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
 }
 
 #title-hero {
