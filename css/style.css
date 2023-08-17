@@ -17,6 +17,7 @@ html {
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
+  padding-bottom: 2rem;
 }
 
 /* ************************* scroll to top */
